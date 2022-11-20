@@ -1,0 +1,31 @@
+.navigation {
+    background-color:
+    rgb(255, 255, 255);
+    border: 2px solid black;
+    max-width: 380px;
+    margin: 10px auto;
+}
+.navigation__list {
+    margin: 5px auto;
+    padding: 5px;
+    text-align: center;
+}
+.navigation__item {
+    display: inline;
+    margin: 30px 0px;
+}
+.navigation__link {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 3px;
+}
+.navigation__link:hover {
+border: 0px solid rgba(0, 0, 0, 0.829);
+background-color: hsl(0, 1%, 70%);
+}
+navigation__link:active {
+    font-weight: 400;
+    color: rgb(255, 1, 52);
+}

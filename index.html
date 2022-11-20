@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projektowanie konstrukcjii budowlanych</title>
+    <link rel="icon" href="https://i.postimg.cc/MZBcGXZc/logo-KJ.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/Button.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/tableContainer.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="sectionHome">
+            <header>
+                <h1 class="sectionHome__header">PawełTech- Projektowanie konstrukcji budowlanych</h1>
+            </header>
+            <div class="sectionHome__companyLogo js-companyLogo">
+                <img height="90" src="https://i.postimg.cc/MZBcGXZc/logo-KJ.webp" alt="KJ-logo">
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#Ofirmie">O firmie</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#Usługi">Usługi</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#Realizacje">Realizacje</a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#Zespół">Zespół</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#Kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button class="js-button1 button">Usuń logo firmy</button>
+        <button class="js-button2 button">Włącz <span class="js-themeName2">ciemny</span> motyw</button>
+        <button class="js-button3 button">ukryj/pokaż nagłówek</button>
+        <main>
+            <section class="section" id="Ofirmie">
+                <h2 class="section__header">O firmie</h2>
+                <p>Nasze biuro projektowe zajmuje się nie tylko tworzeniem projektów domków jednorodzinnych ale
+                    także obiektów przemysłowych, blokowisk czy ogrodów. Dlatego też coraz więcej osób planując
+                    budowę domu czy też zmianę wystroju wnętrza, decyduje się na skorzystanie z usług biur
+                    projektowych. Dzięki temu możliwe jest zrealizowanie nawet najbardziej zaawansowanych projektów
+                    budowlanych. Pracujące w takich biurach osoby, dzięki swojemu doświadczeniu oraz posiadanej
+                    wiedzy, wykonują różnego typu projekty spełniające przeróżne oczekiwania klientów. Dzięki temu
+                    mogą oni realizować wiele zamówień jednocześnie, co sprawia że cieszą się zaufaniem swoich
+                    klientów.</p>
+            </section>
+            <section class="section" id="Usługi">
+                <h2 class="section__header">Usługi</h2>
+                <ul class="list">
+                    <li>Analizy geotechniczne</li>
+                    <li>Modele statyczne obiektów</li>
+                    <li>Projektowanie konstrukcjii stalowych</li>
+                    <li>Projektowanie konstrukcjii żelbetowych</li>
+                    <li>drewnianych</li>
+                    <li>Wykonywanie kompletnej dokumentacjii wykonawczej:
+                        <ul class="list--item">
+                            <li>rys. szalunkowe</li>
+                            <li>rys. wykonawcze</li>
+                            <li>rys. warsztatowe</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="Realizacje">
+                <h2 class="section__header">Realizacje</h2>
+                <p>W zakresie realizacji projektów budowlanych i inwestycyjnych wyróżnia nas nie tylko bogata wiedza
+                    merytoryczna, ale przede wszystkim – praktyczne know-how. Mieliśmy okazję świadczyć kompleksową
+                    obsługę prawną na rzecz największych w regionie międzynarodowych firm z branży handlu
+                    wielkopowierzchniowego.
+                </p>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Zrealizowane projekty budowlane</caption>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">nazwa projektu</th>
+                            <th class="table__cell table__cell--header" scope="col">miasto</th>
+                            <th class="table__cell table__cell--header" scope="col">zakres prac</th>
+                            <th class="table__cell table__cell--header" scope="col">wykonywany pogram</th>
+                            <th class="table__cell table__cell--header" scope="col">główny prowadzący</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">RA III</th>
+                            <td class="table__cell" rowspan="2">Hamburg</td>
+                            <td class="table__cell" rowspan="2">dok. wykonawcza</td>
+                            <td class="table__cell" rowspan="2">isb-cad, auto-cad</td>
+                            <td class="table__cell" rowspan="2">Paweł</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">RA V</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Hoppegarten</th>
+                            <td class="table__cell">Erfurt</td>
+                            <td class="table__cell">model, obl.statyczne</td>
+                            <td class="table__cell">Robot, Revit </td>
+                            <td class="table__cell">Agata</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Most kolejowy</th>
+                            <td class="table__cell">Kraków</td>
+                            <td class="table__cell">obl.statyczne</td>
+                            <td class="table__cell">Revit, RFEM 6</td>
+                            <td class="table__cell">Krzysiek</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Coloria</th>
+                            <td class="table__cell">Berlin</td>
+                            <td class="table__cell">model 3D</td>
+                            <td class="table__cell">Revit</td>
+                            <td class="table__cell">Agata</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <p>Jesli masz ochotę, przeczytaj
+                    <a class="section__link" rel="noreferrer noopener" target="_blank"
+                        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables"
+                        title="informacje o strukturze tworzenia tabelek w html">więcej szczegółów po kliknięciu
+                        (otwarcie w
+                        nowej karcie)
+                    </a>
+                </p>
+            </section>
+            <section class="section" id="Zespół">
+                <h2 class="section__header">Zespół</h2>
+                <p>
+                    Stanowimy zespół inżynierów profesjonalistów, projektantów konstrukcji budowlanych. Nasza wiedza i
+                    doświadczenie pozwala nam na projektowanie oszczędnych i optymalnych konstrukcji w najkrótszym
+                    możliwym terminie.
+                </p>
+                <img height="150" src="https://i.postimg.cc/Dy8sDvPL/team.jpg" alt="team"><br>
+                <a class="section__link" href="https://i.postimg.cc/Dy8sDvPL/team.jpg"
+                    download="team.jpg">Zdjęcie
+                    Zespołu
+                    (pobierz)</a><br>
+                <ul class="section__list">
+                    <li>Paweł Majka- projektant konstrukcji, współwłaściciel, prezes zarządu</li>
+                    <li>Robert Fabisiak- projektant konstrukcji, współwłaściciel, wiceprezes zarządu</li>
+                    <li>Agta Bociek- kierownik ds. projektów budowlanych</li>
+                    <li>Krzysiek Ziemiński- inżynier ds. projektów budowlanych</li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2 class="section__header" id="Kontakt">Kontakt</h2>
+                <div class="section__contact">
+                    <a target="_blank" rel="noopener noreferrer" title="Otwórz w nowej karcie" class="section__link"
+                        href="fb-Paweł">
+                        <img height="30" src="https://i.postimg.cc/BQxHTYS1/logo-fb.png" alt="fb-Paweł">
+                        facebook
+                    </a><br>
+                    <a target="_blank" rel="noopener noreferrer" title="Otwórz w nowej karcie" class="section__link"
+                        href="mailto:pawelmajka1989@gmail.com">
+                        <img height="30" src="https://i.postimg.cc/0yT9xsKz/logo-gmail.png" alt="mail-Paweł">
+                        pawelmajka1989@gmail.com
+                    </a><br>
+                    <a target="_blank" rel="noopener noreferrer" title="Otwórz w nowej karcie" class="section__link"
+                        href="tel:+48785797350">
+                        <img height="30" src="https://i.postimg.cc/3NfHq5HJ/logo-tel.png" alt="telefon-Paweł">
+                        tel: 785797350
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer"> &copy; Copyright by Paweł Majka - wszystkie prawa zastrzeżone!!! </footer>
+</body>
+
+</html>

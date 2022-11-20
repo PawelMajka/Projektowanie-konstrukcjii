@@ -1,0 +1,12 @@
+.list {
+    list-style-type: square;
+    line-height: 1.5;
+    margin: 4px 1px;
+    width: 90%;
+    }
+.list--item {
+    list-style-type: circle;
+    max-width: 800px;
+    list-style-position: outside;
+    list-style: outside;
+}

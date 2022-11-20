@@ -1,0 +1,62 @@
+.sectionHome {  
+    background-color: rgba(180, 179, 179, 0.733);
+    padding: 5px;
+    border: 1px solid black;
+}
+.sectionHome__header {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    text-shadow: 4px 3px 4px #5c5d5cd3;
+    margin: 20px 15px 15px 15px;
+    line-height: normal;
+    background-color: rgba(180, 179, 179);
+}
+.sectionHome__companyLogo {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.section {
+    padding: 20px 10px;
+} 
+.section__header {  
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #5c5d5cd3;
+    background-color: rgba(180, 179, 179, 0.733);
+    padding: 5px;
+    border: 1px solid black;
+}
+.section__contact {
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+    margin-bottom: -25px;
+}
+.section__link {
+    color: blue;
+}
+
+.section__link:hover {
+    border: 0px solid black;
+    background-color: rgba(180, 179, 179, 0.733);
+}
+.section__link:active {
+    border: 1px solid black;
+    color: rgb(255, 1, 52);  
+}
+.section__list {
+    list-style-type: square;
+    line-height: 1.5;
+    margin: 4px 1px;
+    width: 90%;
+    }
+.section__list--item {
+    max-width: 800px;
+    list-style-position: outside;
+    list-style: outside;
+}
+
+    

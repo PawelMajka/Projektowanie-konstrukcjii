@@ -1,0 +1,22 @@
+
+.button {
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+.button:hover {
+    border: 0px solid black;
+    background-color: rgba(180, 179, 179, 0.733); 
+}
+.button:active {
+    border: 1px solid black;
+    color: rgb(255, 1, 52);
+}
+.js-themeName2 {
+    color: rgb(85, 34, 44);
+    font-weight: 1000;
+    text-decoration: underline;
+}
+.js-displayNone {
+    display:none;
+}

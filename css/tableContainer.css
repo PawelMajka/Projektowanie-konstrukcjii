@@ -1,0 +1,6 @@
+.tableContainer  {
+    background-color:rgba(180, 179, 179, 0.733);
+    border-radius: 20px ;
+    padding: 20px;
+    overflow-x: auto;
+} 
