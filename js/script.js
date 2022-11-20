@@ -16,7 +16,7 @@ button2.addEventListener("click", () => {
     themeName2.innerText = body.classList.contains("js-body--dark") ? "jasny" : "ciemny"
 }); 
 
-let naglowek = document.querySelector(".header");
+let naglowek = document.querySelector(".sectionHome__header");
 button3.addEventListener("click", () => {
     naglowek.classList.toggle("js-displayNone");
 });
