@@ -3,7 +3,7 @@
 This is one of my first websites created as homework in a programming course. The website contains basic information about the scope of services and implementation of the company.
 It presents the composition of the company as well as contact information.
 
-![page view](images/pageView.JPG)
+![page view](images/pageView.jpg)
 
 ## DEMO:
 https://pawelmajka.github.io/Projektowanie-konstrukcjii/
