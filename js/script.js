@@ -1,22 +1,39 @@
-console.log("Cześć Wszystkim! Poniżej moja praca domowa z M04 BEM");
+{
+    const welcome = () => {
+        console.log("Cześć Wszystkim! Poniżej moja praca domowa z M05");    
+    };
 
-let button1 = document.querySelector(".js-button1") 
-let button2 = document.querySelector(".js-button2") 
-let button3 = document.querySelector(".js-button3");
-let logofirmy = document.querySelector(".js-companyLogo");
+    const remuveLogoFirmy = () => {
+        const logofirmy = document.querySelector(".js-companyLogo");
+        logofirmy.remove();
+    };
 
-button1.addEventListener("click", () => {
-    logofirmy.remove();
-});
+    const toggleBackground = () => {
+        const body = document.querySelector(".body")
+        const themeName2 = document.querySelector(".js-themeName2")
+    
+        body.classList.toggle("js-body--dark");
+        themeName2.innerText = body.classList.contains("js-body--dark") ? "jasny" : "ciemny";
+    };
 
-let body = document.querySelector(".body")
-let themeName2 = document.querySelector(".js-themeName2")
-button2.addEventListener("click", () => {
-    body.classList.toggle("js-body--dark");
-    themeName2.innerText = body.classList.contains("js-body--dark") ? "jasny" : "ciemny"
-}); 
+    const toggleHeader = () => {
+        const Header = document.querySelector(".sectionHome__header");
+    
+        Header.classList.toggle("js-displayNone");
+    };
 
-let naglowek = document.querySelector(".sectionHome__header");
-button3.addEventListener("click", () => {
-    naglowek.classList.toggle("js-displayNone");
-});
+    const init = () => {
+        const remuveLogoFirmyButton = document.querySelector(".js-button1"); 
+        remuveLogoFirmyButton.addEventListener("click", remuveLogoFirmy); 
+
+        const changeBackgroundButton = document.querySelector(".js-button2"); 
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+
+        const changeHeaderButton = document.querySelector(".js-button3"); 
+        changeHeaderButton.addEventListener("click", toggleHeader);
+        
+        welcome();
+    };
+
+    init();
+}
