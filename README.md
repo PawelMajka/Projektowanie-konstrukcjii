@@ -9,7 +9,7 @@ It presents the composition of the company as well as contact information.
 https://pawelmajka.github.io/Projektowanie-konstrukcjii/
 
 ## Prieview
-![Demo animation](images/AnimationProjektowanie.gif)
+![Demo animation](images/AnimationPageview.gif)
 
 ## Used technologies:
 - HTML
