@@ -6,7 +6,7 @@ It presents the composition of the company as well as contact information.
 ![page view](images/pageView.jpg)
 
 ## DEMO:
-https://pawelmajka.github.io/Projektowanie-konstrukcjii/
+https://pawelmajka.github.io/AnimationPageview.gif/
 
 ## Prieview
 ![Demo animation](images/AnimationProjektowanie.gif)
